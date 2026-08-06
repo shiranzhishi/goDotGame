@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_gc16d"]
+
+[resource]
+script = ExtResource("1_gc16d")
+id = "trap_chain"
+card_name = "连环陷阱"
+cost = 2
+base_damage = 6
+job_class = "rogue"
+description = "本局每用过1张陷阱，伤害+3"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_rggv0"]
+
+[resource]
+script = ExtResource("1_rggv0")
+id = "ice_eternal"
+card_name = "永冻"
+cost = 2
+job_class = "mage"
+description = "能力：敌人冻伤层数不减少"

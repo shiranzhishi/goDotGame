@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_uv16u"]
+
+[resource]
+script = ExtResource("1_uv16u")
+id = "trap_poison"
+card_name = "毒雾陷阱"
+cost = 2
+job_class = "rogue"
+description = "2回合后全体中毒8"
+trap_delay = 2
+trap_damage = 8
+trap_aoe = true

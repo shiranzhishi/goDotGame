@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="RelicData" format=3]
+
+[ext_resource type="Script" path="res://scripts/RelicData.gd" id="1_ejibo"]
+
+[resource]
+script = ExtResource("1_ejibo")
+id = "element_resonance"
+relic_name = "元素共鸣"
+description = "使用火牌后下张冰牌费用-1，反之亦然"
+job_class = "mage"

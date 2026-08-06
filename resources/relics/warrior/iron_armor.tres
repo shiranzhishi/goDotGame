@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="RelicData" format=3]
+
+[ext_resource type="Script" path="res://scripts/RelicData.gd" id="1_uoh6a"]
+
+[resource]
+script = ExtResource("1_uoh6a")
+id = "iron_armor"
+relic_name = "铁甲"
+description = "格挡不随回合清空"
+job_class = "warrior"
+retain_block_all = true

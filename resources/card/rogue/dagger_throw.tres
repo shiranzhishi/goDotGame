@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_eacgq"]
+
+[resource]
+script = ExtResource("1_eacgq")
+id = "dagger_throw"
+card_name = "飞刀"
+cost = 0
+base_damage = 4
+draw = 1
+description = "造成4点伤害，抽1张牌"
+job_class = "rogue"

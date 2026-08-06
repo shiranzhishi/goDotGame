@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_jrekq"]
+
+[resource]
+script = ExtResource("1_jrekq")
+id = "blood_last"
+card_name = "殊死一搏"
+cost = 3
+base_damage = 15
+job_class = "warrior"
+description = "造成15伤，生命低于25%时造成30伤"

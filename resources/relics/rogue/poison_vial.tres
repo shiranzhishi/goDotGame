@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="RelicData" format=3]
+
+[ext_resource type="Script" path="res://scripts/RelicData.gd" id="1_6kms2"]
+
+[resource]
+script = ExtResource("1_6kms2")
+id = "poison_vial"
+relic_name = "毒液瓶"
+description = "敌人流血层数减少时额外受到1伤"
+job_class = "rogue"

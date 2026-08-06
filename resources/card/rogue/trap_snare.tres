@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_8s2ow"]
+
+[resource]
+script = ExtResource("1_8s2ow")
+id = "trap_snare"
+card_name = "捕兽夹"
+job_class = "rogue"
+description = "1回合后对单体造成15伤害"
+trap_delay = 1
+trap_damage = 15

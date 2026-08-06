@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="RelicData" format=3]
+
+[ext_resource type="Script" path="res://scripts/RelicData.gd" id="1_rkqc4"]
+
+[resource]
+script = ExtResource("1_rkqc4")
+id = "ice_staff"
+relic_name = "寒冰法杖"
+description = "冻伤额外+1层"
+job_class = "mage"
+ice_bonus = 1

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_qip64"]
+
+[resource]
+script = ExtResource("1_qip64")
+id = "shield_bash"
+card_name = "盾击"
+base_damage = 4
+job_class = "warrior"
+description = "有格挡时造成8伤"

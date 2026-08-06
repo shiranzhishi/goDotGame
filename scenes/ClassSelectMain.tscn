@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://6q1how4wvbxg"]
+
+[ext_resource type="Script" uid="uid://ly71wvfyb1r8" path="res://scenes/ClassSelectMain.gd" id="1_xvn6w"]
+[ext_resource type="Texture2D" uid="uid://br3758gjhfnl1" path="res://assets/background/enter.png" id="2_q58y0"]
+
+[node name="ClassSelectMain" type="Node2D" unique_id=283827575]
+script = ExtResource("1_xvn6w")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1553819586]
+offset_right = 2570.0
+offset_bottom = 1730.0
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_q58y0")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1615687890]
+
+[node name="TitleLabel" type="Label" parent="CanvasLayer" unique_id=1294319496]
+offset_left = 440.0
+offset_top = 80.0
+offset_right = 552.0
+offset_bottom = 103.0
+theme_override_font_sizes/font_size = 48
+text = "请选择你的职业"
+
+[node name="RogueButton" type="Button" parent="CanvasLayer" unique_id=800682877]
+offset_left = 200.0
+offset_top = 250.0
+offset_right = 400.0
+offset_bottom = 330.0
+text = "盗贼"
+
+[node name="WarriorButton" type="Button" parent="CanvasLayer" unique_id=524691680]
+offset_left = 540.0
+offset_top = 250.0
+offset_right = 740.0
+offset_bottom = 330.0
+text = "战士"
+
+[node name="MageButton" type="Button" parent="CanvasLayer" unique_id=108515585]
+offset_left = 880.0
+offset_top = 250.0
+offset_right = 1080.0
+offset_bottom = 330.0
+text = "法师"
+
+[node name="InfoLabel" type="Label" parent="CanvasLayer" unique_id=1895691537]
+offset_left = 300.0
+offset_top = 400.0
+offset_right = 980.0
+offset_bottom = 500.0
+theme_override_font_sizes/font_size = 20
+horizontal_alignment = 1

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_jhwco"]
+
+[resource]
+script = ExtResource("1_jhwco")
+id = "shield_reflect"
+card_name = "反射"
+cost = 2
+block = 6
+job_class = "warrior"
+description = "获得6格挡，下回合保留3格挡"
+retain_block = 3

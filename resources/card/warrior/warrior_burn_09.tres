@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_doojy"]
+
+[resource]
+script = ExtResource("1_doojy")
+id = "warrior_burn_09"
+card_name = "灼血·猛击"
+cost = 0
+base_damage = 8
+description = "牺牲5点生命获得4点伤害增益（或在生命低于8时触发）"
+effect_type = "blood_sac"
+effect_params = {
+"bonus": 4,
+"sacrifice": 5
+}
+job_class = "warrior"

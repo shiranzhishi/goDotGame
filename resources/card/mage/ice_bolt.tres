@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_21okg"]
+
+[resource]
+script = ExtResource("1_21okg")
+id = "ice_bolt"
+card_name = "寒冰箭"
+base_damage = 4
+job_class = "mage"
+description = "造成4伤，给予2冻伤"
+chill_stacks = 2

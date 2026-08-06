@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_bfeve"]
+
+[resource]
+script = ExtResource("1_bfeve")
+id = "trap_bomb"
+card_name = "延时炸药"
+cost = 2
+job_class = "rogue"
+description = "2回合后全体10伤"
+trap_delay = 2
+trap_damage = 10
+trap_aoe = true

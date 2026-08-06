@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ClassData" format=3]
+
+[ext_resource type="Script" path="res://scripts/ClassData.gd" id="1_d0wnf"]
+
+[resource]
+script = ExtResource("1_d0wnf")
+job_id = "mage"
+job_name = "法师"
+max_energy = 4
+description = "能量上限更高，法术连绵"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_pilil"]
+
+[resource]
+script = ExtResource("1_pilil")
+id = "shield_iron"
+card_name = "铁壁"
+cost = 2
+block = 10
+job_class = "warrior"
+description = "获得10格挡"

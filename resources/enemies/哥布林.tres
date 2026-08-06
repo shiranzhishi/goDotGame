@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/IntentData.gd" id="1_8l5lj"]
+[ext_resource type="Script" path="res://scripts/EnemyData.gd" id="2_bh6qi"]
+
+[sub_resource type="Resource" id="Resource_qopip"]
+script = ExtResource("1_8l5lj")
+intent_name = "棍击"
+value = 4
+
+[sub_resource type="Resource" id="Resource_2u8sq"]
+script = ExtResource("1_8l5lj")
+intent_name = "嚎叫"
+intent_type = "buff"
+value = 3
+target = "self"
+
+[resource]
+script = ExtResource("2_bh6qi")
+enemy_name = "哥布林"
+max_hp = 25
+attack_damage = 4
+color = Color(0.2, 0.7, 0.3, 1)
+intents = [SubResource("Resource_qopip"), SubResource("Resource_2u8sq")]

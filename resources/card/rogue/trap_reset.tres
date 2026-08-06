@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_4mq2m"]
+
+[resource]
+script = ExtResource("1_4mq2m")
+id = "trap_reset"
+card_name = "重置机关"
+draw = 2
+job_class = "rogue"
+description = "抽2张陷阱牌"

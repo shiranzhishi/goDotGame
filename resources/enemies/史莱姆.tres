@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/IntentData.gd" id="1_lbqhf"]
+[ext_resource type="Script" path="res://scripts/EnemyData.gd" id="2_wgc6e"]
+
+[sub_resource type="Resource" id="Resource_ivb8v"]
+script = ExtResource("1_lbqhf")
+intent_name = "撞击"
+
+[sub_resource type="Resource" id="Resource_oqp3r"]
+script = ExtResource("1_lbqhf")
+intent_name = "分裂"
+intent_type = "defend"
+target = "self"
+
+[resource]
+script = ExtResource("2_wgc6e")
+enemy_name = "史莱姆"
+color = Color(0.9, 0.3, 0.3, 1)
+intents = [SubResource("Resource_ivb8v"), SubResource("Resource_oqp3r")]

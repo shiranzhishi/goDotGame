@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_eq0dp"]
+
+[resource]
+script = ExtResource("1_eq0dp")
+id = "strike"
+card_name = "打击"
+base_damage = 6
+description = "造成6点伤害"

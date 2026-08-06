@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_6ke77"]
+
+[resource]
+script = ExtResource("1_6ke77")
+id = "warrior_block_09"
+card_name = "格挡·猛击"
+block = 6
+description = "获得6点格挡；若存在格挡则触发额外效果：造成小范围反击"
+effect_type = "block_bonus"
+effect_params = {
+"extra": 2
+}
+job_class = "warrior"

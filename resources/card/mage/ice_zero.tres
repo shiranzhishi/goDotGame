@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_m7nbq"]
+
+[resource]
+script = ExtResource("1_m7nbq")
+id = "ice_zero"
+card_name = "绝对零度"
+cost = 3
+base_damage = 5
+is_aoe = true
+job_class = "mage"
+description = "全体5伤，给予4冻伤"
+chill_stacks = 4

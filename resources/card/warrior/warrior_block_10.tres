@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_5hpki"]
+
+[resource]
+script = ExtResource("1_5hpki")
+id = "warrior_block_10"
+card_name = "格挡·回旋"
+block = 8
+description = "获得8点格挡；若存在格挡则触发额外效果：下回合攻击力+1"
+effect_type = "block_bonus"
+effect_params = {
+"extra": 2
+}
+job_class = "warrior"

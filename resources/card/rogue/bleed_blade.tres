@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_44b7s"]
+
+[resource]
+script = ExtResource("1_44b7s")
+id = "bleed_blade"
+card_name = "血刃"
+cost = 2
+base_damage = 7
+job_class = "rogue"
+description = "造成7伤，给予5流血"
+bleed_stacks = 5

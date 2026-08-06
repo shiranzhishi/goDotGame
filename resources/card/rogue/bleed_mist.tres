@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_dduyf"]
+
+[resource]
+script = ExtResource("1_dduyf")
+id = "bleed_mist"
+card_name = "血雾"
+cost = 2
+is_aoe = true
+job_class = "rogue"
+description = "全体给予3流血"
+bleed_stacks = 3

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_qsg7c"]
+
+[resource]
+script = ExtResource("1_qsg7c")
+id = "blood_desperation"
+card_name = "绝境反击"
+cost = 2
+base_damage = 10
+job_class = "warrior"
+description = "生命低于30%时造成20伤"

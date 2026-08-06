@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_qii8h"]
+
+[resource]
+script = ExtResource("1_qii8h")
+id = "fire_blast"
+card_name = "火焰冲击"
+base_damage = 6
+job_class = "mage"
+description = "造成6伤"

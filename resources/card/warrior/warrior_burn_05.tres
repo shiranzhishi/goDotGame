@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_d3t6b"]
+
+[resource]
+script = ExtResource("1_d3t6b")
+id = "warrior_burn_05"
+card_name = "灼血·冲击"
+cost = 0
+base_damage = 6
+description = "牺牲4点生命获得3点伤害增益（或在生命低于6时触发）"
+effect_type = "blood_sac"
+effect_params = {
+"bonus": 3,
+"sacrifice": 4
+}
+job_class = "warrior"

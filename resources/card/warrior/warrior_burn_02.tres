@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_2x62w"]
+
+[resource]
+script = ExtResource("1_2x62w")
+id = "warrior_burn_02"
+card_name = "灼血·爆裂"
+cost = 0
+base_damage = 4
+description = "牺牲4点生命获得2点伤害增益（或在生命低于4时触发）"
+effect_type = "blood_sac"
+effect_params = {
+"bonus": 2,
+"sacrifice": 4
+}
+job_class = "warrior"

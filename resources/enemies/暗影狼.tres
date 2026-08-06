@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/IntentData.gd" id="1_ln8fh"]
+[ext_resource type="Script" path="res://scripts/EnemyData.gd" id="2_yv16m"]
+
+[sub_resource type="Resource" id="Resource_i2fuv"]
+script = ExtResource("1_ln8fh")
+intent_name = "撕咬"
+value = 6
+
+[sub_resource type="Resource" id="Resource_hwkg7"]
+script = ExtResource("1_ln8fh")
+intent_name = "影遁"
+intent_type = "defend"
+value = 6
+target = "self"
+
+[resource]
+script = ExtResource("2_yv16m")
+enemy_name = "暗影狼"
+max_hp = 35
+attack_damage = 6
+color = Color(0.2, 0.2, 0.3, 1)
+intents = [SubResource("Resource_i2fuv"), SubResource("Resource_hwkg7")]

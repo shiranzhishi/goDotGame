@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_e8h8b"]
+
+[resource]
+script = ExtResource("1_e8h8b")
+id = "shield_counter"
+card_name = "盾反"
+block = 3
+job_class = "warrior"
+description = "获得3格挡，敌人攻击你时受到3伤"

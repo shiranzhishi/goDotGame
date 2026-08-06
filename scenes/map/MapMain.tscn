@@ -1,0 +1,198 @@
+[gd_scene format=3 uid="uid://d1l0c8hcm42l7"]
+
+[ext_resource type="Script" uid="uid://bgmwu4t37h8qb" path="res://scenes/map/MapMain.gd" id="1_8abel"]
+[ext_resource type="Texture2D" uid="uid://bb811g7323uei" path="res://assets/background/grid_panel_background.png" id="2_317bo"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8abel"]
+load_path = "res://.godot/imported/map_page_background.png-8bce0bc3b48e1d599714ca8992d3d7f7.ctex"
+
+[node name="MapMain" type="Node2D" unique_id=756375919]
+script = ExtResource("1_8abel")
+
+[node name="MapBackground" type="TextureRect" parent="." unique_id=1885360780]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = -17.0
+offset_right = 1603.0
+offset_bottom = 983.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.8, 0.8)
+texture = SubResource("CompressedTexture2D_8abel")
+
+[node name="GridPanelBackground" type="TextureRect" parent="." unique_id=2143613015]
+offset_left = 457.0
+offset_top = 42.0
+offset_right = 1417.0
+offset_bottom = 1746.9999
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_317bo")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1870622360]
+
+[node name="DeckButton" type="Button" parent="CanvasLayer" unique_id=2101228241]
+offset_left = 1100.0
+offset_top = 50.0
+offset_right = 1220.0
+offset_bottom = 100.0
+text = "牌库"
+
+[node name="DeckPanel" type="Panel" parent="CanvasLayer" unique_id=1969668062]
+visible = false
+z_index = 10
+offset_left = 300.0
+offset_top = 100.0
+offset_right = 980.0
+offset_bottom = 620.0
+
+[node name="TitleLabel" type="Label" parent="CanvasLayer/DeckPanel" unique_id=2146773613]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 10.0
+offset_right = 84.0
+offset_bottom = 33.0
+text = "当前牌库"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="CanvasLayer/DeckPanel" unique_id=1259050422]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CardGrid" type="GridContainer" parent="CanvasLayer/DeckPanel/ScrollContainer" unique_id=988829892]
+layout_mode = 2
+theme_override_constants/h_separation = 15
+theme_override_constants/v_separation = 15
+columns = 4
+
+[node name="DeckCountLabel" type="Label" parent="CanvasLayer/DeckPanel" unique_id=948322980]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 480.0
+offset_right = 62.0
+offset_bottom = 503.0
+text = "共0张"
+
+[node name="CloseButton" type="Button" parent="CanvasLayer/DeckPanel" unique_id=128941476]
+layout_mode = 0
+offset_left = 620.0
+offset_top = 10.0
+offset_right = 670.0
+offset_bottom = 41.0
+text = "X"
+
+[node name="EventPanel" type="Panel" parent="CanvasLayer" unique_id=1768775623]
+visible = false
+self_modulate = Color(0.101960786, 0.101960786, 0.18039216, 1)
+offset_left = 300.0
+offset_top = 120.0
+offset_right = 980.0
+offset_bottom = 600.0
+
+[node name="TitleLabel" type="Label" parent="CanvasLayer/EventPanel" unique_id=48808050]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 20.0
+offset_right = 70.0
+offset_bottom = 43.0
+theme_override_font_sizes/font_size = 24
+
+[node name="DescLabel" type="Label" parent="CanvasLayer/EventPanel" unique_id=1012256187]
+custom_minimum_size = Vector2(600, 0)
+layout_mode = 0
+offset_left = 30.0
+offset_top = 70.0
+offset_right = 650.0
+offset_bottom = 250.0
+autowrap_mode = 3
+
+[node name="OptionsContainer" type="VBoxContainer" parent="CanvasLayer/EventPanel" unique_id=1491232553]
+layout_mode = 0
+offset_left = 140.0
+offset_top = 260.0
+offset_right = 540.0
+offset_bottom = 410.0
+theme_override_constants/separation = 15
+
+[node name="ContinueButton" type="Button" parent="CanvasLayer/EventPanel" unique_id=973724773]
+visible = false
+layout_mode = 0
+offset_left = 290.0
+offset_top = 420.0
+offset_right = 390.0
+offset_bottom = 460.0
+text = "继续"
+
+[node name="StatusBar" type="HBoxContainer" parent="CanvasLayer" unique_id=187508987]
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 320.0
+offset_bottom = 43.0
+theme_override_constants/separation = 20
+
+[node name="HPLabel" type="Label" parent="CanvasLayer/StatusBar" unique_id=382994958]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.33333334, 0.33333334, 1)
+theme_override_font_sizes/font_size = 20
+text = "♥ 50/50"
+
+[node name="GoldLabel" type="Label" parent="CanvasLayer/StatusBar" unique_id=1136097165]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.8, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "🪙 100"
+
+[node name="ShopPanel" type="Panel" parent="CanvasLayer" unique_id=406612182]
+visible = false
+self_modulate = Color(0.101960786, 0.101960786, 0.18039216, 1)
+offset_left = 300.0
+offset_top = 100.0
+offset_right = 980.0
+offset_bottom = 620.0
+
+[node name="TitleLabel" type="Label" parent="CanvasLayer/ShopPanel" unique_id=321924430]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 20.0
+offset_right = 94.0
+offset_bottom = 43.0
+theme_override_font_sizes/font_size = 28
+text = "神秘商店"
+
+[node name="DescLabel" type="Label" parent="CanvasLayer/ShopPanel" unique_id=901886235]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 70.0
+offset_right = 94.0
+offset_bottom = 93.0
+text = "欢迎光临"
+
+[node name="GoldLabel" type="Label" parent="CanvasLayer/ShopPanel" unique_id=1468792825]
+layout_mode = 0
+offset_left = 500.0
+offset_top = 20.0
+offset_right = 576.0
+offset_bottom = 43.0
+theme_override_colors/font_color = Color(1, 0.8, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "金币：100"
+
+[node name="ItemsContainer" type="VBoxContainer" parent="CanvasLayer/ShopPanel" unique_id=391295561]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 120.0
+offset_right = 600.0
+offset_bottom = 420.0
+theme_override_constants/separation = 15
+
+[node name="LeaveButton" type="Button" parent="CanvasLayer/ShopPanel" unique_id=129347082]
+layout_mode = 0
+offset_left = 290.0
+offset_top = 440.0
+offset_right = 390.0
+offset_bottom = 480.0
+text = "离开"

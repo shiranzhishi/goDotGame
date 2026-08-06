@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ClassData" format=3]
+
+[ext_resource type="Script" path="res://scripts/ClassData.gd" id="1_6u31d"]
+
+[resource]
+script = ExtResource("1_6u31d")
+job_id = "warrior"
+job_name = "战士"
+max_hp = 70
+description = "生命值更高，皮糙肉厚"

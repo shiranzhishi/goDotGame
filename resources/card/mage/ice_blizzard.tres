@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_lepf8"]
+
+[resource]
+script = ExtResource("1_lepf8")
+id = "ice_blizzard"
+card_name = "暴风雪"
+cost = 2
+base_damage = 3
+is_aoe = true
+job_class = "mage"
+description = "全体3伤，给予2冻伤"
+chill_stacks = 2

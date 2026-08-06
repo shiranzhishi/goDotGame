@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_l0ypp"]
+
+[resource]
+script = ExtResource("1_l0ypp")
+id = "ice_lance"
+card_name = "冰枪术"
+cost = 2
+base_damage = 8
+job_class = "mage"
+description = "造成8伤，冻结目标"
+apply_freeze = true

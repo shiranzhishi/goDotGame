@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="RelicData" format=3]
+
+[ext_resource type="Script" path="res://scripts/RelicData.gd" id="1_kmns8"]
+
+[resource]
+script = ExtResource("1_kmns8")
+id = "shadow_cloak"
+relic_name = "暗影斗篷"
+description = "每回合开始获得1能量"
+job_class = "rogue"
+start_energy = 1

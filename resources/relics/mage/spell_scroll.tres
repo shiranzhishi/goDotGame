@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="RelicData" format=3]
+
+[ext_resource type="Script" path="res://scripts/RelicData.gd" id="1_6wmon"]
+
+[resource]
+script = ExtResource("1_6wmon")
+id = "spell_scroll"
+relic_name = "法术卷轴"
+description = "首回合抽牌+2"
+job_class = "mage"
+start_energy = 1

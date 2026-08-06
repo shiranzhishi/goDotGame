@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_i8x2c"]
+
+[resource]
+script = ExtResource("1_i8x2c")
+id = "fortify"
+card_name = "固守"
+block = 8
+description = "获得8点格挡"
+job_class = "warrior"

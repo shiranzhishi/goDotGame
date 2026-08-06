@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_cain3"]
+
+[resource]
+script = ExtResource("1_cain3")
+id = "ice_spike"
+card_name = "冰锥术"
+cost = 2
+base_damage = 6
+job_class = "mage"
+description = "造成6伤，若目标有冻伤则冻结"
+apply_freeze = true

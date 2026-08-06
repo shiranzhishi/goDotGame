@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="RelicData" format=3]
+
+[ext_resource type="Script" path="res://scripts/RelicData.gd" id="1_agw8g"]
+
+[resource]
+script = ExtResource("1_agw8g")
+id = "lucky_dice"
+relic_name = "幸运骰子"
+description = "抽牌时20%概率再抽1张"
+job_class = "rogue"
+start_energy = 1

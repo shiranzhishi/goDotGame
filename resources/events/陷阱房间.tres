@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="EventData" format=3]
+
+[ext_resource type="Script" path="res://scripts/EventData.gd" id="1_cbqr4"]
+
+[resource]
+script = ExtResource("1_cbqr4")
+event_name = "陷阱房间"
+description = "你走进一个阴暗的房间，地板突然塌陷！"
+option_texts = ["奋力跳跃", "硬抗伤害", "使用工具"]
+option_effects = ["damage:3", "damage:8", "gold_cost:10"]

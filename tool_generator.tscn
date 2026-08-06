@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://ck6icnrm3qu3b"]
+
+[ext_resource type="Script" uid="uid://bi1pcipblinu3" path="res://tool_generator.gd" id="1_or45k"]
+
+[node name="ToolGenerator" type="Node" unique_id=970705920]
+script = ExtResource("1_or45k")

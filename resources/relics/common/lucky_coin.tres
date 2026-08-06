@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="RelicData" format=3]
+
+[ext_resource type="Script" path="res://scripts/RelicData.gd" id="1_n7s05"]
+
+[resource]
+script = ExtResource("1_n7s05")
+id = "lucky_coin"
+relic_name = "幸运币"
+description = "战斗开始时额外抽1张牌"
+start_energy = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="EventData" format=3]
+
+[ext_resource type="Script" path="res://scripts/EventData.gd" id="1_atbh2"]
+
+[resource]
+script = ExtResource("1_atbh2")
+event_name = "流浪商人"
+description = "一个披着斗篷的商人拦住你..."
+option_texts = ["购买卡牌（50金）", "购买生命（30金）", "抢劫他", "离开"]
+option_effects = ["gold_cost:50,card:random", "gold_cost:30,heal:20", "damage:8,gold:100", "none"]

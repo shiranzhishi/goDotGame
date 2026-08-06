@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="RelicData" format=3]
+
+[ext_resource type="Script" path="res://scripts/RelicData.gd" id="1_sfcx6"]
+
+[resource]
+script = ExtResource("1_sfcx6")
+id = "mana_spring"
+relic_name = "魔力源泉"
+description = "每回合开始50%概率能量+1"
+job_class = "mage"
+start_energy = 1

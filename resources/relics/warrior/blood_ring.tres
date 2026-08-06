@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="RelicData" format=3]
+
+[ext_resource type="Script" path="res://scripts/RelicData.gd" id="1_vhgm1"]
+
+[resource]
+script = ExtResource("1_vhgm1")
+id = "blood_ring"
+relic_name = "嗜血戒指"
+description = "击败敌人回复5生命"
+job_class = "warrior"

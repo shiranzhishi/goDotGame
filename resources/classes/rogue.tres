@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ClassData" format=3]
+
+[ext_resource type="Script" path="res://scripts/ClassData.gd" id="1_ggmav"]
+
+[resource]
+script = ExtResource("1_ggmav")
+job_id = "rogue"
+job_name = "盗贼"
+start_gold = 150
+description = "初始金币更多，善于获取资源"

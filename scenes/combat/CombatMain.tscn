@@ -1,0 +1,83 @@
+[gd_scene format=3 uid="uid://dgpfl3wti16k4"]
+
+[ext_resource type="Script" uid="uid://coubpvatwx8ao" path="res://scenes/combat/combat_main.gd" id="1_ik48i"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_2ovqn"]
+size = Vector2(80, 80)
+
+[node name="combatMain" type="Node2D" unique_id=1114721047]
+script = ExtResource("1_ik48i")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=239260694]
+
+[node name="HandContainer" type="HBoxContainer" parent="CanvasLayer" unique_id=1316082398]
+offset_left = 400.0
+offset_top = 500.0
+offset_right = 900.0
+offset_bottom = 700.0
+theme_override_constants/separation = 20
+
+[node name="EnergyLabel" type="Label" parent="CanvasLayer" unique_id=1190190760]
+offset_right = 66.0
+offset_bottom = 23.0
+text = "能量: 3/3"
+
+[node name="HPLabel" type="Label" parent="CanvasLayer" unique_id=1725351652]
+offset_left = 50.0
+offset_top = 80.0
+offset_right = 124.0
+offset_bottom = 103.0
+text = "HP: 50/50"
+
+[node name="EndTurnButton" type="Button" parent="CanvasLayer" unique_id=1093414295]
+offset_left = 1100.0
+offset_top = 50.0
+offset_right = 1200.0
+offset_bottom = 90.0
+text = "结束回合"
+
+[node name="BlockLabel" type="Label" parent="CanvasLayer" unique_id=1137270659]
+offset_left = 50.0
+offset_top = 110.0
+offset_right = 108.0
+offset_bottom = 133.0
+text = "格挡：0"
+
+[node name="RewardPanel" type="Panel" parent="CanvasLayer" unique_id=1553870774]
+visible = false
+offset_left = 240.0
+offset_top = 150.0
+offset_right = 1040.0
+offset_bottom = 550.0
+
+[node name="TitleLabel" type="Label" parent="CanvasLayer/RewardPanel" unique_id=1624112621]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 260.0
+offset_bottom = 43.0
+text = "战斗胜利！选择一张卡牌加入牌库"
+
+[node name="RewardContainer" type="HBoxContainer" parent="CanvasLayer/RewardPanel" unique_id=227217166]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 80.0
+offset_right = 750.0
+offset_bottom = 330.0
+theme_override_constants/separation = 30
+
+[node name="SkipButton" type="Button" parent="CanvasLayer/RewardPanel" unique_id=2086213659]
+layout_mode = 0
+offset_left = 350.0
+offset_top = 340.0
+offset_right = 450.0
+offset_bottom = 380.0
+text = "跳过"
+
+[node name="player" type="Node2D" parent="." unique_id=170866774]
+
+[node name="Sprite2D" type="Sprite2D" parent="player" unique_id=79399526]
+modulate = Color(0.26666668, 0.26666668, 1, 1)
+texture = SubResource("PlaceholderTexture2D_2ovqn")
+
+[node name="EnemyContainer" type="Node2D" parent="." unique_id=1249042614]

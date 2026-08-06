@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_gmx75"]
+
+[resource]
+script = ExtResource("1_gmx75")
+id = "fire_burn"
+card_name = "燃烧"
+cost = 2
+base_damage = 8
+job_class = "mage"
+description = "造成8伤，下回合再造成8伤"
+burn_damage = 8

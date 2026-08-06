@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_br8dd"]
+
+[resource]
+script = ExtResource("1_br8dd")
+id = "bleed_sacrifice"
+card_name = "放血"
+cost = 0
+job_class = "rogue"
+description = "自己受到3伤，给予敌人8流血"
+bleed_stacks = 8
+self_damage = 3

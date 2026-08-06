@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_xk7va"]
+
+[resource]
+script = ExtResource("1_xk7va")
+id = "bleed_frenzy"
+card_name = "血之狂暴"
+cost = 2
+job_class = "rogue"
+description = "能力：敌人流血死亡时回复5血"

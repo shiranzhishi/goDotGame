@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_1sqh8"]
+
+[resource]
+script = ExtResource("1_1sqh8")
+id = "fire_overload"
+card_name = "过载"
+cost = 0
+next_turn_energy = 2
+job_class = "mage"
+description = "下回合能量+2，受到3伤"
+self_damage = 3

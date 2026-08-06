@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_gl2c4"]
+
+[resource]
+script = ExtResource("1_gl2c4")
+id = "heavy_strike"
+card_name = "重击"
+cost = 2
+base_damage = 10
+block = 2
+description = "造成10点伤害，获得2点格挡"
+job_class = "warrior"

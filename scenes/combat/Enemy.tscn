@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://d3udjik2as86v"]
+
+[ext_resource type="Script" uid="uid://f7cyhnnv3sy3" path="res://scenes/combat/Enemy.gd" id="1_k8udy"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_bdsmf"]
+size = Vector2(80, 80)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bdsmf"]
+size = Vector2(80, 80)
+
+[node name="enemy" type="Node2D" unique_id=2118414049]
+script = ExtResource("1_k8udy")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1213101560]
+modulate = Color(1, 0.26666668, 0.26666668, 1)
+texture = SubResource("PlaceholderTexture2D_bdsmf")
+
+[node name="HealthBar" type="ProgressBar" parent="." unique_id=1900869226]
+offset_left = -40.0
+offset_top = -60.0
+offset_right = 40.0
+offset_bottom = -33.0
+max_value = 30.0
+value = 30.0
+
+[node name="NameLabel" type="Label" parent="." unique_id=509194187]
+offset_left = -40.0
+offset_top = -80.0
+offset_bottom = -57.0
+text = "史莱姆"
+
+[node name="Area2D" type="Area2D" parent="." unique_id=443470897]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1995383779]
+shape = SubResource("RectangleShape2D_bdsmf")
+
+[node name="IntentLabel" type="Label" parent="." unique_id=1440606405]
+offset_left = -40.0
+offset_top = 48.0
+offset_right = 40.0
+offset_bottom = 71.0
+theme_override_colors/font_color = Color(1, 0.6666667, 0, 1)
+horizontal_alignment = 1

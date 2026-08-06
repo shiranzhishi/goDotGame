@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="RelicData" format=3]
+
+[ext_resource type="Script" path="res://scripts/RelicData.gd" id="1_k2dw6"]
+
+[resource]
+script = ExtResource("1_k2dw6")
+id = "trap_bag"
+relic_name = "陷阱背包"
+description = "陷阱触发伤害+5"
+job_class = "rogue"
+trap_bonus = 5

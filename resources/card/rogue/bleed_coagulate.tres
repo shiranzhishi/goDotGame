@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_0kcve"]
+
+[resource]
+script = ExtResource("1_0kcve")
+id = "bleed_coagulate"
+card_name = "凝血"
+job_class = "rogue"
+description = "将敌人流血层数翻倍"

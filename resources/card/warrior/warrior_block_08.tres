@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_yast4"]
+
+[resource]
+script = ExtResource("1_yast4")
+id = "warrior_block_08"
+card_name = "格挡·毒刃"
+block = 12
+description = "获得12点格挡；若存在格挡则触发额外效果：下回合攻击力+1"
+effect_type = "block_bonus"
+effect_params = {
+"extra": 2
+}
+job_class = "warrior"

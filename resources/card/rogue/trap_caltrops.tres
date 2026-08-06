@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_vm8hl"]
+
+[resource]
+script = ExtResource("1_vm8hl")
+id = "trap_caltrops"
+card_name = "铁蒺藜"
+job_class = "rogue"
+description = "3回合后全体8伤"
+trap_delay = 3
+trap_damage = 8
+trap_aoe = true

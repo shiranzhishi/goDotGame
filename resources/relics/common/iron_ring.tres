@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="RelicData" format=3]
+
+[ext_resource type="Script" path="res://scripts/RelicData.gd" id="1_l2gb8"]
+
+[resource]
+script = ExtResource("1_l2gb8")
+id = "iron_ring"
+relic_name = "铁指环"
+description = "打击伤害+1"
+bonus_damage = 1

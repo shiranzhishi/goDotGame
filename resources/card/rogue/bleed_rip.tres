@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_wt6uu"]
+
+[resource]
+script = ExtResource("1_wt6uu")
+id = "bleed_rip"
+card_name = "撕裂"
+draw = 1
+job_class = "rogue"
+description = "给予4流血，抽1牌"
+bleed_stacks = 4

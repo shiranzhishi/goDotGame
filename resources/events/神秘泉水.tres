@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="EventData" format=3]
+
+[ext_resource type="Script" path="res://scripts/EventData.gd" id="1_xsw6k"]
+
+[resource]
+script = ExtResource("1_xsw6k")
+event_name = "神秘泉水"
+description = "你发现了一汪清澈的泉水..."
+option_texts = ["痛饮一番", "装满水袋", "离开"]
+option_effects = ["heal:10", "heal:5,card:random", "none"]

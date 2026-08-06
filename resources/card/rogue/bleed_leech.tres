@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_px7m0"]
+
+[resource]
+script = ExtResource("1_px7m0")
+id = "bleed_leech"
+card_name = "吸血刃"
+cost = 2
+base_damage = 6
+job_class = "rogue"
+description = "造成6伤，敌人每有1层流血伤害+1"
+bleed_stacks = 2

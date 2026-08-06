@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_prhgv"]
+
+[resource]
+script = ExtResource("1_prhgv")
+id = "blood_berserk"
+card_name = "狂战士之怒"
+cost = 2
+job_class = "warrior"
+description = "能力：生命低于50%时伤害+3"

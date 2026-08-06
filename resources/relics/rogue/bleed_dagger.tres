@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="RelicData" format=3]
+
+[ext_resource type="Script" path="res://scripts/RelicData.gd" id="1_xqw2i"]
+
+[resource]
+script = ExtResource("1_xqw2i")
+id = "bleed_dagger"
+relic_name = "流血匕首"
+description = "攻击给予1额外流血"
+job_class = "rogue"
+bleed_bonus = 1

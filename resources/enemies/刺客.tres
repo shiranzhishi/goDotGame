@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/IntentData.gd" id="1_c5w8u"]
+[ext_resource type="Script" path="res://scripts/EnemyData.gd" id="2_4metu"]
+
+[sub_resource type="Resource" id="Resource_pmik8"]
+script = ExtResource("1_c5w8u")
+intent_name = "突刺"
+value = 7
+
+[sub_resource type="Resource" id="Resource_qn3f8"]
+script = ExtResource("1_c5w8u")
+intent_name = "毒刃"
+intent_type = "debuff"
+value = 2
+
+[resource]
+script = ExtResource("2_4metu")
+enemy_name = "刺客"
+max_hp = 20
+attack_damage = 7
+color = Color(0.7, 0.2, 0.8, 1)
+intents = [SubResource("Resource_pmik8"), SubResource("Resource_qn3f8")]

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_1m11r"]
+
+[resource]
+script = ExtResource("1_1m11r")
+id = "blood_for_blood"
+card_name = "以血换血"
+base_damage = 12
+job_class = "warrior"
+description = "受到4伤，造成12伤"
+self_damage = 4

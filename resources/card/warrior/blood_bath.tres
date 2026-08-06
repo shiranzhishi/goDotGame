@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_hij8n"]
+
+[resource]
+script = ExtResource("1_hij8n")
+id = "blood_bath"
+card_name = "浴血"
+base_damage = 8
+job_class = "warrior"
+description = "造成8伤，生命越低伤害越高"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="EventData" format=3]
+
+[ext_resource type="Script" path="res://scripts/EventData.gd" id="1_mvdxj"]
+
+[resource]
+script = ExtResource("1_mvdxj")
+event_name = "古老祭坛"
+description = "你在一座古老祭坛前停下脚步..."
+option_texts = ["献上血液", "献上金币", "转身离开"]
+option_effects = ["damage:5,relic:iron_ring", "gold_cost:30,heal:15", "none"]

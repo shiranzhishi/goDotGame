@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/IntentData.gd" id="1_t8vww"]
+[ext_resource type="Script" path="res://scripts/EnemyData.gd" id="2_7uvci"]
+
+[sub_resource type="Resource" id="Resource_e12sb"]
+script = ExtResource("1_t8vww")
+intent_name = "撞击"
+value = 3
+
+[sub_resource type="Resource" id="Resource_sclcw"]
+script = ExtResource("1_t8vww")
+intent_name = "硬化"
+intent_type = "defend"
+value = 8
+target = "self"
+
+[sub_resource type="Resource" id="Resource_t0ch1"]
+script = ExtResource("1_t8vww")
+intent_name = "蓄力"
+intent_type = "buff"
+value = 2
+target = "self"
+
+[resource]
+script = ExtResource("2_7uvci")
+enemy_name = "铁甲兽"
+max_hp = 50
+attack_damage = 3
+color = Color(0.3, 0.5, 0.9, 1)
+intents = [SubResource("Resource_e12sb"), SubResource("Resource_sclcw"), SubResource("Resource_t0ch1")]

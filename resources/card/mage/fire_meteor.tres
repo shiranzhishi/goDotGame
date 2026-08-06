@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_wbdsi"]
+
+[resource]
+script = ExtResource("1_wbdsi")
+id = "fire_meteor"
+card_name = "陨石术"
+cost = 5
+base_damage = 25
+is_aoe = true
+job_class = "mage"
+description = "全体25伤"

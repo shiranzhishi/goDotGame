@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3]
+
+[ext_resource type="Script" path="res://scripts/CardData.gd" id="1_ushys"]
+
+[resource]
+script = ExtResource("1_ushys")
+id = "shield_absolute"
+card_name = "绝对防御"
+cost = 2
+block = 8
+job_class = "warrior"
+description = "获得8格挡，下回合获得4格挡"
+retain_block = 4
